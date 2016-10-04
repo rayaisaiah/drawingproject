@@ -1,2 +1,5 @@
-canvas.fillStyle = "pink";
-canvas.fillRect(80, 150, 100, 100);
+#drawingArea {
+  border: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  }
