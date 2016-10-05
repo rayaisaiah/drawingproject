@@ -86,3 +86,18 @@ canvas.moveTo(945,745);
 canvas.lineTo(900,775);
 canvas.lineTo(855,745);
 canvas.fill();
+//leg
+canvas.beginPath();
+canvas.fillStyle = "black";
+canvas.fillRect(850,935,30,160);
+canvas.fill();
+//leg
+canvas.beginPath();
+canvas.fillStyle = "black";
+canvas.fillRect(920,935,30,160);
+canvas.fill();
+//ground
+canvas.beginPath();
+canvas.fillStyle = "green";
+canvas.fillRect(0,1150,2000,3000);
+canvas.fill();
