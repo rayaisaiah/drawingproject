@@ -15,10 +15,10 @@ canvas.moveTo(900,565);
 canvas.lineTo(960,580);
 canvas.lineTo(900,600);
 canvas.fill();
-//circle
+//csun!
 canvas.beginPath();
 canvas.fillStyle = "yellow";
-canvas.arc(300, 150, 100, 5, 4*Math.PI);
+canvas.arc(300, 250, 200, 5, 4*Math.PI);
 canvas.stroke();
 canvas.fill();
 
@@ -89,15 +89,38 @@ canvas.fill();
 //leg
 canvas.beginPath();
 canvas.fillStyle = "black";
-canvas.fillRect(850,935,30,160);
+canvas.fillRect(850,935,30,170);
 canvas.fill();
 //leg
 canvas.beginPath();
 canvas.fillStyle = "black";
-canvas.fillRect(920,935,30,160);
+canvas.fillRect(920,935,30,170);
 canvas.fill();
 //ground
 canvas.beginPath();
 canvas.fillStyle = "green";
-canvas.fillRect(0,1150,2000,3000);
+canvas.fillRect(0,1115,2000,3000);
 canvas.fill();
+//shoe
+canvas.beginPath();
+canvas.fillStyle = "black";
+canvas.fillRect(920,1100,60,30);
+canvas.fill();
+//shoe
+canvas.beginPath();
+canvas.fillStyle = "black";
+canvas.fillRect(820,1100,60,30);
+canvas.fill();
+//left arm
+canvas.beginPath();
+canvas.lineWidth=25;
+canvas.strokeStyle = "black";
+canvas.moveTo(945,760);
+canvas.lineTo(1145,790);
+canvas.stroke();
+
+//right arm
+canvas.beginPath();
+canvas.moveTo(855,760);
+canvas.lineTo(655,790);
+canvas.stroke();
