@@ -13,5 +13,16 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="drawingproject.js"></script>
+<script type="text/javascript">
+if ( window.addEventListener ) {
+  var state = 0, konami = [72,79,78,69,83,84,65,66,69];//honest abe
+  window.addEventListener("keydown", function(e) {
+    if ( e.keyCode == konami[state] ) state++;
+    else state = 0;
+    if ( state == 9 )
+      window.location = "https://en.wikipedia.org/wiki/Abraham_Lincoln";
+    }, true);
+}
+</script>
 </body>
 </html>
