@@ -1,8 +1,8 @@
 var canvasDiv = document.getElementById("drawingArea");
 var canvas = canvasDiv.getContext('2d');
 
-canvas.fillStyle = "LightSkyBlue";
-canvas.fillRect(10,10,10000,10000);
+//canvas.fillStyle = "LightSkyBlue";
+//canvas.fillRect(10,10,10000,10000);
 //face
 canvas.beginPath();
 canvas.fillStyle = "Khaki";
@@ -124,3 +124,15 @@ canvas.beginPath();
 canvas.moveTo(855,760);
 canvas.lineTo(655,790);
 canvas.stroke();
+
+//tree
+canvas.beginPath();
+canvas.fillStyle = "#996633";
+canvas.fillRect(1600,820,50,300);
+canvas.fill();
+
+//treetop
+canvas.beginPath();
+canvas.fillStyle = "#00cc44";
+canvas.fillRect(1550,820,150,150);
+canvas.fill();
